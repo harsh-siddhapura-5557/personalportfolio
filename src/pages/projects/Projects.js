@@ -43,11 +43,12 @@ class Projects extends Component {
           </Fade>
 
           <div className="projects-heading-text-div"></div>
+          <ExperienceAccordion
+            sections={projectsExperience["sections"]}
+            theme={theme}
+          />
         </div>
-        <ExperienceAccordion
-          sections={projectsExperience["sections"]}
-          theme={theme}
-        />
+
         <Button
           text={"More Projects"}
           className="project-button"

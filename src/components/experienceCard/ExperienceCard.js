@@ -45,14 +45,22 @@ class ExperienceCard extends Component {
           )}
         </div>
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
             ></div>
             <div
               className="experience-card"
-              style={{ background: `${theme.body}` }}
+              style={{
+                background: `${theme.body}`,
+              }}
             >
               <div
                 style={{
